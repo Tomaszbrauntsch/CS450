@@ -1,0 +1,149 @@
+/*  Create the header then a c1 for each child in the header */
+
+body {
+  font-family:'Times New Roman', Times, serif;
+  background-color: #3b3b3b;
+  margin:0%;
+}
+hr{
+  color: black;
+  width:95%;
+  background-color: white;
+}
+.main-container{
+  margin-left:20%;
+  margin-right:20%;
+  background-color:white;
+}
+.hd1{
+  display:flex;
+  justify-content: space-between;
+  background-color: #f2f2f2f2;
+  height: 10%;
+  border-bottom: #ffd700 0.75em solid;
+  padding:2.5%;
+}
+.hd1_c1{
+  margin-right:0%;
+}
+.hd1_c2{
+  display: flex;
+  margin-right:50px;
+}
+.hd1_c1 p > b {
+  font-size:1.8em;
+}
+.hd1_c1 p {
+  font-size:1em;
+  color: rgb(27,27,27);
+  font-size:1.2em;
+}
+.hd1_c2 p{
+  font-size:1em;
+  color: rgb(27,27,27);
+  line-height:200%;
+}
+
+.hd2{
+  display:flex;
+  justify-content: space-between;
+  background-color: white;
+  padding:2.5%;
+  font-size:1.1em;
+}
+.hd2_c1{
+  margin-right:0%;
+  white-space: nowrap;
+}
+.hd2_c2{
+  margin-left:5%;
+}
+.hd2_c1 p{
+  font-size:1.2em;
+  color: rgb(27,27,27);
+}
+.hd2_c2 p{
+  font-size:1.2em;
+  color: rgb(27,27,27);
+}
+
+.hd3{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  padding:2.5%;
+  font-size:1.1em;
+}
+.hd3_c1{
+  margin-right:0%;
+  white-space:nowrap;
+}
+.hd3_c2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left:4%;
+}
+.hd3_c1 p{
+  font-size:1.2em;
+  color: rgb(27,27,27);
+}
+.hd3_c2 p{
+  font-size:1em;
+  color: rgb(27,27,27);
+  margin:0%;
+}
+
+.hd4{
+  display:flex;
+  background-color: white;
+  padding:2.5%;
+  font-size: 1.2em;
+}
+.hd4_c1{
+  margin-right:0%;
+  flex-grow:1;
+}
+.hd4_c2{
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-between;
+  flex-grow:6;
+  margin-left:0%;
+}
+.hd4_c1 p{
+  font-size:1.1em;
+  color: rgb(27,27,27);
+}
+.hd4_c2 > table{
+  font-size:1.1em;
+  color: rgb(27,27,27);
+}
+
+.hd5{
+  display:flex;
+  background-color: white;
+  padding:2.5%;
+  font-size:1.1em;
+}
+.hd5_c1{
+  margin-right:0%;
+  white-space:nowrap;
+}
+.hd5_c2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left:9.5%;
+}
+.hd5_c1 p{
+  color: rgb(27,27,27);
+  font-size:1.2em;
+  /* remove the spacing between the spaces */
+}
+.hd5_c2 p{
+  color: rgb(27,27,27);
+  font-size:1.2em;
+  /* remove the spacing between the spaces */
+}
