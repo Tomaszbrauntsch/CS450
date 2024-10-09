@@ -1,0 +1,22 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.parent{
+  display:flex;
+  flex-direction: column;
+  row-gap: 10px
+}
+.child1{
+  border: 1px solid rgb(212,212,212);
+  padding: 2% 1%;
+  margin-left:0.5%;
+  width:25%;
+}
+
+.child2{
+  border: 1px solid rgb(212,212,212);
+  padding: 2% 1%;
+  margin-left:0.5%;
+  width:25%;
+}
