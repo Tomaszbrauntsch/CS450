@@ -5,7 +5,7 @@ body {
 .parent{
   display:flex;
   flex-direction: column;
-  row-gap: 10px
+  row-gap: 0.75em;
 }
 .child1{
   border: 1px solid rgb(212,212,212);
