@@ -1,0 +1,30 @@
+input[type="radio"] {
+    page-break-after: avoid;
+    page-break-before: avoid;
+}
+
+#stockoptions{
+    display:inline;
+}
+
+#stockoptions > div{
+    display:inline;
+    margin-left:1em;
+}
+#stocks {
+    margin-left:6em;
+}
+#monthsmenu{
+    margin-left:17.5em;
+}
+
+#tooltip{
+    position: absolute;
+    visibility: hidden;
+    background-color: rgba(0,0,0,0.7);
+    color:white;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    pointer-events: none;
+}
